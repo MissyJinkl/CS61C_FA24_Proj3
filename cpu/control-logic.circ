@@ -403,7 +403,7 @@
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(1610,540)" name="Constant">
-      <a name="value" val="0x9"/>
+      <a name="value" val="0x3"/>
       <a name="width" val="7"/>
     </comp>
     <comp lib="0" loc="(1610,620)" name="Constant">
@@ -914,9 +914,6 @@
     <comp lib="0" loc="(610,1410)" name="Tunnel">
       <a name="label" val="BrUn"/>
     </comp>
-    <comp lib="0" loc="(620,1560)" name="Tunnel">
-      <a name="label" val="MemRW"/>
-    </comp>
     <comp lib="0" loc="(620,1620)" name="Tunnel">
       <a name="label" val="ImmSel_S"/>
     </comp>
@@ -934,6 +931,9 @@
     <comp lib="0" loc="(620,230)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="ASel"/>
+    </comp>
+    <comp lib="0" loc="(630,1560)" name="Tunnel">
+      <a name="label" val="MemWEn"/>
     </comp>
     <comp lib="0" loc="(660,1970)" name="Constant">
       <a name="value" val="0x4"/>
@@ -1843,7 +1843,7 @@
     <wire from="(540,950)" to="(670,950)"/>
     <wire from="(560,1970)" to="(610,1970)"/>
     <wire from="(570,1560)" to="(570,1620)"/>
-    <wire from="(570,1560)" to="(620,1560)"/>
+    <wire from="(570,1560)" to="(630,1560)"/>
     <wire from="(570,1620)" to="(620,1620)"/>
     <wire from="(570,1950)" to="(570,1960)"/>
     <wire from="(570,1950)" to="(610,1950)"/>
