@@ -318,6 +318,11 @@
       <a name="label" val="MemAddress"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(1850,900)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="imm"/>
+      <a name="width" val="32"/>
+    </comp>
     <comp lib="0" loc="(1870,780)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="DataToReg"/>
@@ -815,12 +820,15 @@
     <wire from="(1840,200)" to="(1880,200)"/>
     <wire from="(1840,860)" to="(1910,860)"/>
     <wire from="(1850,130)" to="(1880,130)"/>
+    <wire from="(1850,900)" to="(1930,900)"/>
     <wire from="(1870,780)" to="(1930,780)"/>
     <wire from="(1870,820)" to="(2000,820)"/>
     <wire from="(1910,830)" to="(1910,860)"/>
     <wire from="(1910,830)" to="(2000,830)"/>
     <wire from="(1930,780)" to="(1930,810)"/>
     <wire from="(1930,810)" to="(2000,810)"/>
+    <wire from="(1930,840)" to="(1930,900)"/>
+    <wire from="(1930,840)" to="(2000,840)"/>
     <wire from="(200,150)" to="(250,150)"/>
     <wire from="(200,170)" to="(200,240)"/>
     <wire from="(200,240)" to="(380,240)"/>

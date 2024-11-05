@@ -376,7 +376,7 @@
       <a name="label" val="func3"/>
       <a name="width" val="3"/>
     </comp>
-    <comp lib="0" loc="(990,670)" name="Tunnel">
+    <comp lib="0" loc="(990,690)" name="Tunnel">
       <a name="label" val="DataToReg"/>
       <a name="width" val="32"/>
     </comp>
@@ -398,15 +398,15 @@
     <comp lib="5" loc="(560,40)" name="Text">
       <a name="text" val="DON'T CHANGE THE LOCATIONS OF THE INPUTS AND OUTPUTS!"/>
     </comp>
-    <comp lib="5" loc="(717,520)" name="Text">
+    <comp lib="5" loc="(715,520)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="lb"/>
     </comp>
-    <comp lib="5" loc="(724,678)" name="Text">
+    <comp lib="5" loc="(720,675)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="lh"/>
     </comp>
-    <comp lib="5" loc="(86,552)" name="Text">
+    <comp lib="5" loc="(85,550)" name="Text">
       <a name="color" val="#98a9db"/>
       <a name="text" val="DECODE"/>
     </comp>
@@ -470,8 +470,6 @@
     <wire from="(890,540)" to="(890,650)"/>
     <wire from="(890,650)" to="(910,650)"/>
     <wire from="(930,730)" to="(930,750)"/>
-    <wire from="(950,690)" to="(960,690)"/>
-    <wire from="(960,670)" to="(960,690)"/>
-    <wire from="(960,670)" to="(990,670)"/>
+    <wire from="(950,690)" to="(990,690)"/>
   </circuit>
 </project>
